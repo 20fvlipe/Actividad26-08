@@ -45,4 +45,8 @@ public class Universidad extends Recinto{
         }
         return mensaje;
     }
+
+    public void crearInfo(){
+        System.out.println("Estudia con Nosotros, tenemos " + this.cantidadCarreras + "Carreras");
+    }
 }

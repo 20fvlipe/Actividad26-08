@@ -37,4 +37,9 @@ public class Estadio extends Recinto{
                 "\nNombre: " + nombre +
                 "\nCapacidad: " + capacidad ;
     }
+
+    @Override
+    public void crearInfo(){
+        System.out.println("No faltes al Encuentro de: " + this.equipoLocal);
+    }
 }

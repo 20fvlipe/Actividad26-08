@@ -31,7 +31,9 @@ public abstract class Recinto {
     @Override
     public String toString() {
         return "~~~~ Recinto ~~~~" +
-                "\nombre: " + nombre +
-                "\ncapacidad: " + capacidad;
+                "\nNombre: " + nombre +
+                "\nCapacidad: " + capacidad;
     }
+
+    public abstract void crearInfo();
 }

@@ -19,6 +19,7 @@ public class Main {
         System.out.println("Ingrese el nombre del estadio: ");
         estadio.setNombre(sc.nextLine());
         System.out.println(estadio.toString());
+        estadio.crearInfo();
 
 
     // Instanciar un objeto de tipo Universidad
@@ -35,6 +36,6 @@ public class Main {
         sc.nextLine();
         universidad.setEstatal(true);
         System.out.println(universidad.toString());
-
+        universidad.crearInfo();
     }
 }
